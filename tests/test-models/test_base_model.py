@@ -7,6 +7,7 @@ from time import sleep
 from models.base_model import BaseModel
 import models
 
+
 class TestBaseModelInstantiation(unittest.TestCase):
     def test_no_args_instantiates(self):
         self.assertIsInstance(BaseModel(), BaseModel)
